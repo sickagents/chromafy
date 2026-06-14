@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "chromafy"
+version = "1.0.0"
+description = "A lightweight, zero-dependency terminal color library for Python"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+authors = [{name = "sickagents"}]
+keywords = ["terminal", "color", "ansi", "style", "gradient", "box", "table"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Programming Language :: Python :: 3",
+    "Topic :: Terminals",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+
+[project.urls]
+Homepage = "https://github.com/sickagents/chromafy"
+Repository = "https://github.com/sickagents/chromafy"
+Issues = "https://github.com/sickagents/chromafy/issues"
